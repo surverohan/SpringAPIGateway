@@ -1,0 +1,12 @@
+zuul:
+  routes:
+    filesapi:
+      path: /filesapi/**
+      url: http://localhost:9000
+    links:
+      path: /links/**
+      url: http://futures/links
+    images:
+      path: /image/**
+      url: http://images/image
+      
